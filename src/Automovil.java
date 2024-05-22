@@ -25,4 +25,8 @@ public class Automovil {
     public float calcularConsumo(int km, float procentajeGasolina){
         return km/(capacidadGasolina*procentajeGasolina);
     }
+
+    public float calcularConsumo(int km, int procentajeGasolina){
+        return km/(capacidadGasolina*(procentajeGasolina/100f));
+    }
 }

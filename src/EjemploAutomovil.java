@@ -19,7 +19,8 @@ public class EjemploAutomovil {
         System.out.println(subaru.frenar());
         System.out.println(mazda.acelerarFrenar(4000));
 
-        System.out.println("Kilometro por litro de gasolina " + subaru.calcularConsumo(300, 0.75f) + " km/lts");
+        System.out.println("Kilometro por litro de gasolina " + subaru.calcularConsumo(300, 0.6f) + " km/lts");
 
+        System.out.println("Kilometro por litro de gasolina " + subaru.calcularConsumo(300, 60) + " km/lts");
     }
 }
