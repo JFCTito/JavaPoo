@@ -6,6 +6,29 @@ public class Automovil {
     private double cilindrada;
     private int capacidadGasolina = 40;
 
+    public Automovil() {
+    }
+
+    public Automovil(String fabricante, String modelo){
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+    }
+
+    public Automovil(String fabricante, String modelo, String color) {
+        this(fabricante, modelo);
+        this.color = color;
+    }
+
+    public Automovil(String fabricante, String modelo, String color, double cilindrada) {
+        this(fabricante, modelo, color);
+        this.cilindrada = cilindrada;
+    }
+
+    public Automovil(String fabricante, String modelo, String color, double cilindrada, int capacidadGasolina) {
+        this(fabricante, modelo, color, cilindrada);
+        this.capacidadGasolina = capacidadGasolina;
+    }
+
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
     }
