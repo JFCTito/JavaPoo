@@ -101,7 +101,7 @@ public class Automovil {
     }
 
     public String verDetalle(){
-        return "auto.id = " + this.id + "\nauto.fabricante = " + this.fabricante + "\nauto.modelo = " + this.modelo + "\nauto.colo = " + this.color + "\nauto.patenteColor = " + Automovil.colorPatente + "\naunto.cilindrada = " + this.cilindrada;
+        return "auto.id = " + this.id + "\nauto.fabricante = " + this.fabricante + "\nauto.modelo = " + this.modelo + "\nauto.colo = " + this.color.getColor() + "\nauto.patenteColor = " + Automovil.colorPatente.getColor() + "\naunto.cilindrada = " + this.cilindrada;
     }
 
     public String acelerar (int rpm){

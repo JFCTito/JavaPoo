@@ -17,7 +17,7 @@ public class EjemploAutomovilStatic {
         System.out.println(mazda.verDetalle());
         System.out.println(nissan.verDetalle());
         System.out.println(nissan2.verDetalle());
-        System.out.println("Automovil.getColorPatente() = " + Automovil.getColorPatente());
+        System.out.println("Automovil.getColorPatente() = " + Automovil.getColorPatente().getColor());
 
         System.out.println("VELOCIDAD_MAX_CARRETERA = " + Automovil.VELOCIDAD_MAX_CARRETERA + " km/h");
         System.out.println("VELOCIDAD_MAX_CIUDAD = " + Automovil.VELOCIDAD_MAX_CIUDAD + " km/h");

@@ -1,8 +1,17 @@
 public enum Color {
-    ROJO,
-    AMARILLO,
-    AZUL,
-    BLANCO,
-    GRIS,
-    NARANJA
+    ROJO("Rojo"),
+    AMARILLO("Amarillo"),
+    AZUL("Azul"),
+    BLANCO("Blanco"),
+    GRIS("Gris");
+
+    private final String color;
+
+    Color(String color) {
+        this.color = color;
+    }
+
+    public String getColor() {
+        return color;
+    }
 }
