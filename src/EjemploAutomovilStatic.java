@@ -21,5 +21,8 @@ public class EjemploAutomovilStatic {
 
         System.out.println("VELOCIDAD_MAX_CARRETERA = " + Automovil.VELOCIDAD_MAX_CARRETERA + " km/h");
         System.out.println("VELOCIDAD_MAX_CIUDAD = " + Automovil.VELOCIDAD_MAX_CIUDAD + " km/h");
+
+        Automovil diego = new Automovil();
+
     }
 }
